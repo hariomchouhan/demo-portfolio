@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className='n-wrapper'>
       <div className="n-left">
-        <div className="n-name">Andrew</div>
+        <div className="n-name">Hariom</div>
         <span>toggle</span>
       </div>
       <div className="n-right">
@@ -19,7 +19,7 @@ export default function Navbar() {
             </ul>
         </div>
         <button className="button n-button">
-            Contact us
+            Contact
         </button>
       </div>
     </div>

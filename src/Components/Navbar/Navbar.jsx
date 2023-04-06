@@ -1,27 +1,26 @@
-import React from 'react'
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
+import Toggle from "../Toggle/Toggle";
 
 export default function Navbar() {
   return (
-    <div className='n-wrapper'>
+    <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Hariom</div>
-        <span>toggle</span>
+        <Toggle />
       </div>
       <div className="n-right">
         <div className="n-list">
-            <ul style={{listStyleType:'none'}}>
-                <li>Home</li>
-                <li>Services</li>
-                <li>Experience</li>
-                <li>Portfolio</li>
-                <li>Testimonials</li>
-            </ul>
+          <ul style={{ listStyleType: "none" }}>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Experience</li>
+            <li>Portfolio</li>
+            <li>Testimonials</li>
+          </ul>
         </div>
-        <button className="button n-button">
-            Contact
-        </button>
+        <button className="button n-button">Contact</button>
       </div>
     </div>
-  )
+  );
 }

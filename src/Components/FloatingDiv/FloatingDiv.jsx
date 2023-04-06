@@ -1,5 +1,6 @@
 import React from "react";
 import "./FloatingDiv.css"
+
 export default function FloatingDiv({ image, txt1, txt2 }) {
   return (
     <div className="floatingdiv">

@@ -42,7 +42,7 @@ textarea{
     left: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     .contact-form{
         padding: 0;
         flex-direction: column;
@@ -52,5 +52,10 @@ textarea{
     .c-right .user{
         width: 16rem;
     }
+}
 
-} 
+@media screen and (max-width: 370px) {
+    .c-right .user {
+        width: 12rem;
+    }
+}

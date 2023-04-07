@@ -32,3 +32,9 @@
     padding: 10px;
     color: #5290fd;
 }
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: auto;
+    }
+}

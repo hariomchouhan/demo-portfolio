@@ -5,7 +5,7 @@ import { themeContext } from "../../Context";
 
 export default function Contact() {
   const theme = useContext(themeContext);
-    const darkMode = theme.state.darkMode;
+  const darkMode = theme.state.darkMode;
   const form = useRef();
 
   const [done, setDone] = useState(false);
@@ -34,7 +34,7 @@ export default function Contact() {
     <div className="contact-form" id="Contact">
       <div className="w-left">
         <div className="awesome">
-          <span style={{color: darkMode? 'white' : ''}}>Get in touch</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Get in touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"

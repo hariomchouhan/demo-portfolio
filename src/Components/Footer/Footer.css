@@ -22,3 +22,12 @@
     display: flex;
     gap: 2rem;
 }
+
+@media screen and (max-width: 980px) {
+    .f-content{
+        gap: 2rem;
+    }
+    .footer > img {
+        height: 20rem;
+    }
+}
